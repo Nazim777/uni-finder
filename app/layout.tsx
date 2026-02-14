@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://yoursite.com'),
+  metadataBase: new URL('https://uni-finder-two.vercel.app'),
   title: {
     default: 'Find Your Perfect University | Global University Search',
     template: '%s | University Finder'
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://yoursite.com',
+    url: 'https://uni-finder-two.vercel.app',
     title: 'Find Your Perfect University',
     description: 'Discover and compare top universities worldwide with advanced search filters.',
     siteName: 'University Finder',
